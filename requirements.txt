@@ -1,0 +1,20 @@
+# 基础工具库
+numpy>=1.21.0          # 数值计算（所有模块）
+pillow>=9.0.0          # 图像处理（V-KGGen/RAV-KG/闭环）
+python-dotenv>=1.0.0   # 环境变量管理（可选，存储OpenAI API Key）
+
+# 知识图谱处理
+networkx>=2.8.0        # KG构建与操作（所有模块）
+
+# 深度学习框架
+torch>=2.0.0           # 核心深度学习框架（RPri-KGR/RAV-KG/闭环）
+torchvision>=0.15.0    # 视觉模型（ViT，RAV-KG/闭环）
+transformers>=4.28.0   # BERT/BLIP模型（所有模块）
+sentence-transformers>=2.2.0  # 语义相似度计算（V-KGGen）
+
+# 强化学习
+stable-baselines3>=2.0.0  # RL模型（PPO，RPri-KGR/闭环）
+gym>=0.26.0               # RL环境定义（RPri-KGR/闭环）
+
+# LLM调用
+openai>=1.0.0           # 调用GPT-3.5/4（V-KGGen/闭环）
