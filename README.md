@@ -133,5 +133,5 @@ Optimized ViT saved to: optimized_vit_closed_loop.pth
 
 ---  
 **联系作者**：lingfengfeng@ruc.edu.cn  
-**项目地址**：https://github.com/ballplayer/RobotVisionUnderstandingAugmentFramework
+**项目地址**：https://github.com/ballplayer/RVUAF
 **论文引用**：under-review  
